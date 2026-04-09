@@ -14,6 +14,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.waveai.*
@@ -82,7 +83,7 @@ fun SettingsScreen(
                     label    = "Low Signal (Spar)",
                     active   = streamQuality == StreamQuality.LOW,
                     color    = Red,
-                    icon     = Icons.Default.SignalCellular1Bar,
+                    icon     = Icons.Default.SignalCellularAlt,
                     modifier = Modifier.weight(1f),
                     onClick  = { onQualityChange(StreamQuality.LOW) }
                 )
@@ -295,5 +296,3 @@ private fun SleepTimerChip(
         Text(label, style = StyleLabel.copy(color = if (active) Color.White else TextHint))
     }
 }
-
-import androidx.compose.ui.graphics.graphicsLayer

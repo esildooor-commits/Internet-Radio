@@ -27,7 +27,7 @@ android {
 
     composeOptions {
         // This is a reasonable default; Android Studio may suggest a different value.
-        kotlinCompilerExtensionVersion = "1.5.3"
+        kotlinCompilerExtensionVersion = "1.5.8"
     }
 
     compileOptions {

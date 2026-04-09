@@ -1,0 +1,129 @@
+﻿{
+    "total_count":  1,
+    "jobs":  [
+                 {
+                     "id":  70667023845,
+                     "run_id":  24207466068,
+                     "workflow_name":  "Android CI Build",
+                     "head_branch":  "main",
+                     "run_url":  "https://api.github.com/repos/esildooor-commits/Internet-Radio/actions/runs/24207466068",
+                     "run_attempt":  1,
+                     "node_id":  "CR_kwDOR-Y_W88AAAAQdBU15Q",
+                     "head_sha":  "9a7975dc183e6bd0b404d9902bbb4887860afde9",
+                     "url":  "https://api.github.com/repos/esildooor-commits/Internet-Radio/actions/jobs/70667023845",
+                     "html_url":  "https://github.com/esildooor-commits/Internet-Radio/actions/runs/24207466068/job/70667023845",
+                     "status":  "completed",
+                     "conclusion":  "failure",
+                     "created_at":  "2026-04-09T18:47:02Z",
+                     "started_at":  "2026-04-09T18:47:05Z",
+                     "completed_at":  "2026-04-09T18:48:05Z",
+                     "name":  "build",
+                     "steps":  [
+                                   {
+                                       "name":  "Set up job",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  1,
+                                       "started_at":  "2026-04-09T18:47:06Z",
+                                       "completed_at":  "2026-04-09T18:47:09Z"
+                                   },
+                                   {
+                                       "name":  "Run actions/checkout@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  2,
+                                       "started_at":  "2026-04-09T18:47:09Z",
+                                       "completed_at":  "2026-04-09T18:47:09Z"
+                                   },
+                                   {
+                                       "name":  "Set up JDK 17",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  3,
+                                       "started_at":  "2026-04-09T18:47:09Z",
+                                       "completed_at":  "2026-04-09T18:47:10Z"
+                                   },
+                                   {
+                                       "name":  "Install prerequisites",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  4,
+                                       "started_at":  "2026-04-09T18:47:10Z",
+                                       "completed_at":  "2026-04-09T18:47:21Z"
+                                   },
+                                   {
+                                       "name":  "Install Android command line tools",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  5,
+                                       "started_at":  "2026-04-09T18:47:21Z",
+                                       "completed_at":  "2026-04-09T18:47:35Z"
+                                   },
+                                   {
+                                       "name":  "Set environment",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  6,
+                                       "started_at":  "2026-04-09T18:47:35Z",
+                                       "completed_at":  "2026-04-09T18:47:35Z"
+                                   },
+                                   {
+                                       "name":  "Install Gradle (system)",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  7,
+                                       "started_at":  "2026-04-09T18:47:35Z",
+                                       "completed_at":  "2026-04-09T18:47:55Z"
+                                   },
+                                   {
+                                       "name":  "Build (generate wrapper if missing)",
+                                       "status":  "completed",
+                                       "conclusion":  "failure",
+                                       "number":  8,
+                                       "started_at":  "2026-04-09T18:47:55Z",
+                                       "completed_at":  "2026-04-09T18:48:02Z"
+                                   },
+                                   {
+                                       "name":  "Upload APK artifact",
+                                       "status":  "completed",
+                                       "conclusion":  "skipped",
+                                       "number":  9,
+                                       "started_at":  "2026-04-09T18:48:02Z",
+                                       "completed_at":  "2026-04-09T18:48:02Z"
+                                   },
+                                   {
+                                       "name":  "Post Set up JDK 17",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  17,
+                                       "started_at":  "2026-04-09T18:48:02Z",
+                                       "completed_at":  "2026-04-09T18:48:02Z"
+                                   },
+                                   {
+                                       "name":  "Post Run actions/checkout@v4",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  18,
+                                       "started_at":  "2026-04-09T18:48:02Z",
+                                       "completed_at":  "2026-04-09T18:48:03Z"
+                                   },
+                                   {
+                                       "name":  "Complete job",
+                                       "status":  "completed",
+                                       "conclusion":  "success",
+                                       "number":  19,
+                                       "started_at":  "2026-04-09T18:48:03Z",
+                                       "completed_at":  "2026-04-09T18:48:03Z"
+                                   }
+                               ],
+                     "check_run_url":  "https://api.github.com/repos/esildooor-commits/Internet-Radio/check-runs/70667023845",
+                     "labels":  [
+                                    "ubuntu-latest"
+                                ],
+                     "runner_id":  1000000000,
+                     "runner_name":  "GitHub Actions 1000000000",
+                     "runner_group_id":  0,
+                     "runner_group_name":  "GitHub Actions"
+                 }
+             ]
+}
